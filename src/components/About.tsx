@@ -17,7 +17,7 @@ const About = () => {
           <div className="space-y-3 text-muted-foreground">
             <div className="flex gap-3">
               <span className="text-primary">▹</span>
-              <p>Ex-professor de informática e <a href="https://www.sencha.com/mvp/" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-secondary transition-colors underline">Sencha MVP</a></p>
+              <p>Instrutor de Informática e <a href="https://www.sencha.com/mvp/" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-secondary transition-colors underline">Sencha MVP</a></p>
             </div>
 
             <div className="flex gap-3">
