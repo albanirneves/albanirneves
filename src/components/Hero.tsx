@@ -44,16 +44,16 @@ const Hero = () => {
 
               <div className="flex flex-wrap gap-4 justify-center md:justify-start pt-4">
                 <a
-                  href="#contato"
+                  href="#projetos"
                   className="px-6 py-3 bg-primary text-primary-foreground rounded-lg hover:shadow-lg hover:shadow-primary/50 transition-all duration-300 font-semibold"
                 >
-                  Entre em Contato
+                  Ver Projetos
                 </a>
                 <a
-                  href="#projetos"
-                  className="px-6 py-3 border-2 border-primary text-primary rounded-lg hover:bg-primary hover:text-primary-foreground transition-all duration-300 font-semibold"
+                  href="#servicos"
+                  className="px-6 py-3 border-2 border-secondary text-secondary rounded-lg hover:bg-secondary hover:text-secondary-foreground transition-all duration-300 font-semibold"
                 >
-                  Ver Projetos
+                  Ver Serviços
                 </a>
               </div>
             </div>
