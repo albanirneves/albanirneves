@@ -2,7 +2,7 @@ import profileImage from "@/assets/profile.png";
 
 const Hero = () => {
   const currentYear = new Date().getFullYear();
-  const yearsOfExperience = currentYear - 2019;
+  const yearsOfExperience = currentYear - 2009;
 
   return (
     <section className="min-h-screen flex items-center justify-center px-4 py-20">
