@@ -9,38 +9,45 @@ const About = () => {
           <span className="text-primary">&lt;</span> Sobre Mim <span className="text-primary">/&gt;</span>
         </h2>
 
-        <div className="terminal-window space-y-6 text-lg leading-relaxed">
-          <p className="terminal-prompt">
-            Atuo há mais de 16 anos na área de tecnologia, trabalhando com tecnologia aplicada a dados, integrações, sistemas ERP, automações e inteligência artificial.
+        <div className="terminal-window space-y-6">
+          <p className="terminal-prompt text-lg">
+            16+ anos transformando desafios em soluções tecnológicas eficientes.
           </p>
 
-          <p>
-            Inicialmente fui professor de informática e depois passei 8 anos desenvolvendo soluções para gestão empresarial, onde me tornei{" "}
-            <a
-              href="https://www.sencha.com/mvp/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-primary hover:text-secondary transition-colors underline decoration-primary/50 hover:decoration-secondary"
-            >
-              Sencha MVP
-            </a>
-            {" "}e, há {yearsInCurrentRole} anos crio ferramentas de software avançadas para gestão e integração de dados.
-          </p>
+          <div className="space-y-3 text-muted-foreground">
+            <div className="flex gap-3">
+              <span className="text-primary">▹</span>
+              <p>Ex-professor de informática e <a href="https://www.sencha.com/mvp/" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-secondary transition-colors underline">Sencha MVP</a></p>
+            </div>
 
-          <p>
-            Tenho experiência com scraping, RAGs em Supabase, construção de agentes inteligentes, pipelines de dados, consultas complexas em R, processamento de grandes volumes, otimizações e infra com Docker e Kubernetes.
-          </p>
+            <div className="flex gap-3">
+              <span className="text-primary">▹</span>
+              <p>8 anos desenvolvendo sistemas ERP para gestão empresarial</p>
+            </div>
 
-          <p>
-            Tenho forte experiência com integrações avançadas usando <span className="text-secondary font-semibold">WhatsApp</span> principalmente para automações e atendimento inteligente. Já trabalhei com fluxos completos envolvendo integrações via n8n, webhooks, APIs oficiais, agentes de IA, automações de atendimento e fluxos complexos de comunicação.
-          </p>
+            <div className="flex gap-3">
+              <span className="text-primary">▹</span>
+              <p>{yearsInCurrentRole} anos criando ferramentas avançadas de dados e automação</p>
+            </div>
 
-          <p>
-            Desenvolvo soluções completas que envolvem lógica de negócios, automações inteligentes, conectividade com banco de dados, IA (incluindo RAG), controle de sessão e monitoramento em ambiente real.
-          </p>
+            <div className="flex gap-3">
+              <span className="text-primary">▹</span>
+              <p>Especialista em scraping, RAGs, agentes de IA e pipelines de dados</p>
+            </div>
 
-          <p className="text-primary font-semibold pt-4">
-            Sou focado, direto e gosto de criar soluções eficientes, rápidas e que realmente resolvem problemas reais.
+            <div className="flex gap-3">
+              <span className="text-primary">▹</span>
+              <p>Forte experiência com WhatsApp: automações, APIs, n8n e atendimento inteligente</p>
+            </div>
+
+            <div className="flex gap-3">
+              <span className="text-primary">▹</span>
+              <p>Infra: Docker, Kubernetes, otimização de queries e processamento em larga escala</p>
+            </div>
+          </div>
+
+          <p className="text-secondary font-semibold text-lg pt-4">
+            Foco total em criar soluções que realmente funcionam e resolvem problemas reais.
           </p>
         </div>
       </div>
