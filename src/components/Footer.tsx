@@ -6,6 +6,18 @@ const Footer = () => {
   return (
     <footer className="py-8 px-4 border-t border-border bg-muted/30">
       <div className="container max-w-6xl mx-auto">
+        {/* CTA Button */}
+        <div className="text-center mb-8">
+          <a
+            href="https://wa.me/5518996473715?text=Olá!%20Gostaria%20de%20conversar%20sobre%20seus%20serviços."
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block px-8 py-4 bg-secondary text-secondary-foreground rounded-lg hover:shadow-xl hover:shadow-secondary/50 transition-all duration-300 font-bold text-lg"
+          >
+            Entre em contato comigo agora mesmo!
+          </a>
+        </div>
+
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
           <div className="text-center md:text-left">
             <p className="text-muted-foreground">
