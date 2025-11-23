@@ -1,4 +1,7 @@
 const About = () => {
+  const currentYear = new Date().getFullYear();
+  const yearsInCurrentRole = currentYear - 2021;
+
   return (
     <section id="sobre" className="py-20 px-4">
       <div className="container max-w-6xl mx-auto">
@@ -21,7 +24,7 @@ const About = () => {
             >
               Sencha MVP
             </a>
-            {" "}e, há 4 anos crio ferramentas de software avançadas para gestão e integração de dados.
+            {" "}e, há {yearsInCurrentRole} anos crio ferramentas de software avançadas para gestão e integração de dados.
           </p>
 
           <p>
