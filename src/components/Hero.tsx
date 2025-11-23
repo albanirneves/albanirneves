@@ -55,6 +55,14 @@ const Hero = () => {
                 >
                   Ver Serviços
                 </a>
+                <a
+                  href="https://wa.me/5518996473715?text=Olá!%20Gostaria%20de%20conversar%20sobre%20seus%20serviços."
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="px-6 py-3 bg-secondary text-secondary-foreground rounded-lg hover:shadow-lg hover:shadow-secondary/50 transition-all duration-300 font-semibold"
+                >
+                  Entrar em Contato
+                </a>
               </div>
             </div>
           </div>
