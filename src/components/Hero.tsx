@@ -32,7 +32,7 @@ const Hero = () => {
 
               <div className="terminal-prompt space-y-2 text-muted-foreground text-lg leading-relaxed">
                 <p>
-                  Sou desenvolvedor de software com <span className="text-primary font-bold">{yearsOfExperience} anos</span> de experiência criando soluções para o mercado.
+                  Sou profissional de TI com <span className="text-primary font-bold">{yearsOfExperience} anos</span> de experiência criando soluções para o mercado.
                 </p>
                 <p>
                   Trabalho com dados, automações, IA e integrações que tornam processos mais eficientes e inteligentes.
