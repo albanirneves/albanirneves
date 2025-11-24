@@ -1,5 +1,23 @@
+import { ExternalLink } from "lucide-react";
+
 const Projects = () => {
   const projects = [
+    {
+      title: "Agente de Atendimento para Salão de Cabeleireiros",
+      description: "Sistema inteligente de atendimento automatizado via WhatsApp integrado com Supabase para gestão de dados e n8n para orquestração de fluxos. Utiliza IA para compreender solicitações dos clientes, realizar agendamentos, responder dúvidas sobre serviços e preços, enviar lembretes automáticos e coletar feedback. Implementa RAG para consultar base de conhecimento sobre procedimentos e produtos. Interface conversacional natural com confirmações, reagendamentos e histórico completo de interações armazenado no banco de dados.",
+      tech: ["WhatsApp", "Supabase", "n8n", "IA", "RAG"]
+    },
+    {
+      title: "SAAS para Atendimento em Pet Shop",
+      description: "Plataforma completa em desenvolvimento para gestão de atendimento e relacionamento com clientes de pet shops. Sistema multicanal com agendamento inteligente, prontuário digital dos pets, controle de vacinas e medicamentos, automação de lembretes via WhatsApp, gestão financeira e relatórios analíticos. Arquitetura escalável preparada para multi-tenant com personalização por estabelecimento.",
+      tech: ["Node.js", "WhatsApp", "Supabase", "n8n", "IA"],
+      link: "https://zappet.com.br"
+    },
+    {
+      title: "Sistema de Atendimento para Franquia de Oficinas de Faróis",
+      description: "Solução corporativa de atendimento centralizado para rede de franquias especializada em restauração e manutenção de faróis automotivos. Sistema unificado de agendamento multi-unidades, triagem automática de serviços via WhatsApp, gestão de orçamentos, controle de estoque compartilhado, painel administrativo com KPIs por franquia e chatbot inteligente para atendimento inicial e FAQ. Integração com sistema legado da franquia para sincronização de dados.",
+      tech: ["WhatsApp", "Node.js", "Supabase", "n8n", "IA"]
+    },
     {
       title: "Plataforma de Votação Online",
       description: "Sistema completo de votação online para concursos de beleza com segurança, validação de elegibilidade, registro único de votos e dashboard de apuração em tempo real. Inclui mecanismo antifraude, confirmação de voto, auditoria completa e relatórios exportáveis.",
@@ -9,11 +27,6 @@ const Projects = () => {
       title: "Scraper de dados via proxy",
       description: "Sistema avançado de coleta automatizada de dados da internet utilizando Puppeteer com rotação inteligente de proxies. Implementa controle de sessão, cache com Redis, tratamento de bloqueios e captchas, logs detalhados e sistema de retry automático. Executa dentro de containers Docker para garantir isolamento e escalabilidade. Coleta milhares de registros diariamente de forma confiável e eficiente.",
       tech: ["Node.js", "Puppeteer", "Proxy", "Redis", "Docker"]
-    },
-    {
-      title: "Atualização diária de planilha com milhões de registros",
-      description: "Pipeline robusto que processa grandes volumes de dados do MySQL e atualiza automaticamente Google Sheets. Implementa processamento em lotes, validação de dados, tratamento de erros, logs de auditoria e execução via cronjob. Otimizado para lidar com milhões de linhas mantendo performance e integridade. Inclui sistema de notificação em caso de falhas e backup automático dos dados processados.",
-      tech: ["Node.js", "MySQL", "Google Sheets API", "Cronjob"]
     },
     {
       title: "RAG para agente inteligente no n8n",
@@ -53,7 +66,7 @@ const Projects = () => {
                 {project.description}
               </p>
 
-              <div className="flex flex-wrap gap-2">
+              <div className="flex flex-wrap gap-2 mb-4">
                 {project.tech.map((tech, techIdx) => (
                   <span
                     key={techIdx}
@@ -63,6 +76,17 @@ const Projects = () => {
                   </span>
                 ))}
               </div>
+
+              {project.link && (
+                <a
+                  href={project.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 text-primary hover:text-accent transition-colors text-sm font-semibold mt-2"
+                >
+                  Visitar site <ExternalLink className="w-4 h-4" />
+                </a>
+              )}
             </div>
           ))}
         </div>
