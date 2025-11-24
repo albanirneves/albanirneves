@@ -24,7 +24,7 @@ const Skills = () => {
       title: "Cloud/Outros",
       icon: Cloud,
       color: "primary",
-      skills: ["Integração com Google Cloud APIs", "Processamento de dados em larga escala", "Manipulação e análise de dados"]
+      skills: ["Integração com Google Cloud APIs", "Processamento de dados em larga escala", "Manipulação e análise de dados", "Digital Ocean", "Hostinger", "Coolify"]
     }
   ];
 
