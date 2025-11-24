@@ -8,7 +8,7 @@ const Projects = () => {
       tech: ["WhatsApp", "Supabase", "n8n", "IA", "RAG"]
     },
     {
-      title: "SAAS para Atendimento em Pet Shop",
+      title: "SAAS para Atendimento em Pet Shop (Em andamento)",
       description: "Plataforma completa em desenvolvimento para gestão de atendimento e relacionamento com clientes de pet shops. Sistema multicanal com agendamento inteligente, prontuário digital dos pets, controle de vacinas e medicamentos, automação de lembretes via WhatsApp, gestão financeira e relatórios analíticos. Arquitetura escalável preparada para multi-tenant com personalização por estabelecimento.",
       tech: ["Node.js", "WhatsApp", "Supabase", "n8n", "IA"],
       link: "https://zappet.com.br"
