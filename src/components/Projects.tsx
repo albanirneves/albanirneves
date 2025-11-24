@@ -15,7 +15,7 @@ const Projects = () => {
     },
     {
       title: "Sistema de Atendimento para Franquia de Oficinas de Faróis",
-      description: "Solução corporativa de atendimento centralizado para rede de franquias especializada em restauração e manutenção de faróis automotivos. Sistema unificado de agendamento multi-unidades, triagem automática de serviços via WhatsApp, gestão de orçamentos, controle de estoque compartilhado, painel administrativo com KPIs por franquia e chatbot inteligente para atendimento inicial e FAQ. Integração com sistema legado da franquia para sincronização de dados.",
+      description: "Solução corporativa de atendimento centralizado para rede de franquias especializada em restauração e manutenção de faróis automotivos. Sistema unificado de agendamento, triagem automática de serviços via WhatsApp, chatbot inteligente para atendimento inicial e FAQ.",
       tech: ["WhatsApp", "Node.js", "Supabase", "n8n", "IA"]
     },
     {
