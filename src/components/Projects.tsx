@@ -36,7 +36,7 @@ const Projects = () => {
     {
       title: "Manipulação de Dados em R",
       description: "Scripts avançados em R para análise exploratória, transformação e processamento de grandes datasets. Implementa joins complexos, agregações, filtros condicionais, limpeza de dados e pipelines otimizados com dplyr e data.table. Geração de visualizações estatísticas e exportação para diversos formatos. Processa milhões de registros com eficiência usando paralelização e técnicas de otimização de memória.",
-      tech: ["R", "dplyr", "data.table", "ggplot2"]
+      tech: ["R", "dplyr", "data.table", "Parquet", "CSV", "JSON"]
     },
     {
       title: "Ferramentas internas empresariais",
