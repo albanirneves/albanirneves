@@ -12,7 +12,7 @@ const Skills = () => {
       title: "Infra / DevOps / Ferramentas",
       icon: Database,
       color: "secondary",
-      skills: ["Docker", "Docker Compose", "Redis", "Rtools", "Git", "Linux", "Criação de APIs", "Proxy + scraping avançado com Puppeteer e Axios"]
+      skills: ["Docker", "Docker Compose", "Redis", "Rtools", "Git", "Linux", "Criação de APIs", "Sencha ExtJS", "Kubernetes", "CI/CD", "Gitlab"]
     },
     {
       title: "IA / Automação",
