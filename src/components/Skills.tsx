@@ -12,13 +12,13 @@ const Skills = () => {
       title: "Infra / DevOps / Ferramentas",
       icon: Database,
       color: "secondary",
-      skills: ["Docker", "Docker Compose", "Redis", "Rtools", "Git", "Linux", "Criação de APIs", "Sencha ExtJS", "Kubernetes", "CI/CD", "Gitlab"]
+      skills: ["Docker", "Docker Compose", "Redis", "Rtools", "Git", "Linux", "Criação de APIs", "Sencha ExtJS", "Kubernetes", "CI/CD", "Gitlab", "Supabase"]
     },
     {
       title: "IA / Automação",
       icon: Bot,
       color: "accent",
-      skills: ["RAG com Supabase", "Agentes de IA no n8n", "Integrações com modelos LLM", "Processos automáticos com cronjobs"]
+      skills: ["RAG", "Agentes de Atendimento no WhatsApp", "Automatização de rotinas", "OpenAI", "Agentes conversacionais", "Lovable"]
     },
     {
       title: "Cloud/Outros",
