@@ -49,6 +49,11 @@ const About = () => {
               <span className="text-primary">▹</span>
               <p>Infra: Docker, Kubernetes, otimização de queries e processamento em larga escala</p>
             </div>
+
+            <div className="flex gap-3">
+              <span className="text-primary">▹</span>
+              <p>Desenvolvimento de APIs complexas e seguras</p>
+            </div>
           </div>
 
           <p className="text-secondary font-semibold text-lg pt-4">
