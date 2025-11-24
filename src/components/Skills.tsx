@@ -6,7 +6,7 @@ const Skills = () => {
       title: "Linguagens e Dados",
       icon: Code2,
       color: "primary",
-      skills: ["Node.js", "JavaScript", "R", "SQL", "Python", "Firebird", "MySQL", "Postgres"]
+      skills: ["Node.js", "JavaScript", "R", "SQL", "Python", "Firebird", "MySQL", "Postgres", "Processamento de dados em larga escala"]
     },
     {
       title: "Infra / DevOps / Ferramentas",
@@ -24,7 +24,7 @@ const Skills = () => {
       title: "Cloud/Outros",
       icon: Cloud,
       color: "primary",
-      skills: ["Integração com Google Cloud APIs", "Processamento de dados em larga escala", "Manipulação e análise de dados", "Digital Ocean", "Hostinger", "Coolify"]
+      skills: ["Integração com Google Cloud APIs", "Manipulação e análise de dados", "Digital Ocean", "Hostinger", "Coolify"]
     }
   ];
 
