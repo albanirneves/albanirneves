@@ -18,7 +18,7 @@ const Skills = () => {
       title: "IA / Automação",
       icon: Bot,
       color: "accent",
-      skills: ["RAG", "Agentes de Atendimento no WhatsApp", "Automatização de rotinas", "OpenAI", "Agentes conversacionais", "Lovable"]
+      skills: ["RAG", "Agentes de Atendimento no WhatsApp", "Automatização de rotinas", "OpenAI", "Agentes conversacionais", "Lovable", "Manus AI", "Claude", "DeepSeek"]
     },
     {
       title: "Cloud/Outros",
