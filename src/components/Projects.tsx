@@ -90,7 +90,7 @@ const Projects = () => {
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 text-primary hover:text-accent transition-colors text-sm font-semibold mt-2"
                 >
-                  Visitar site <ExternalLink className="w-4 h-4" />
+                  Ver projeto <ExternalLink className="w-4 h-4" />
                 </a>
               )}
             </div>
