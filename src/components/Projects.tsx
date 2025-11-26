@@ -8,6 +8,11 @@ const Projects = () => {
       tech: ["WhatsApp", "Supabase", "n8n", "IA", "RAG"]
     },
     {
+      title: "Sistema para Clínica Escola",
+      description: "Plataforma completa de gestão para clínica escola de osteopatia que centraliza todas as operações acadêmicas e administrativas. Sistema robusto incluindo módulo financeiro com controle de receitas, despesas e inadimplência, agendamento inteligente de consultas com confirmação automática, gestão completa de alunos e professores com controle de frequência e avaliações. Prontuário eletrônico integrado para registro de atendimentos e evolução clínica, área do aluno com acesso a estudos de caso, materiais didáticos e histórico de atendimentos. Cadastro unificado de pacientes com anamnese detalhada, central de ajuda com FAQ e tickets de suporte, relatórios gerenciais com análise de indicadores acadêmicos e financeiros. Dashboard administrativo com visão 360° das operações, sistema de notificações por email e SMS, e controle de permissões por perfil de usuário.",
+      tech: ["React", "Node.js", "PostgreSQL", "Supabase", "REST APIs"]
+    },
+    {
       title: "SAAS para Atendimento em Pet Shop (Em andamento)",
       description: "Plataforma completa em desenvolvimento para gestão de atendimento e relacionamento com clientes de pet shops. Sistema multicanal com agendamento inteligente, prontuário digital dos pets, controle de vacinas e medicamentos, automação de lembretes via WhatsApp, gestão financeira e relatórios analíticos. Arquitetura escalável preparada para multi-tenant com personalização por estabelecimento.",
       tech: ["Node.js", "WhatsApp", "Supabase", "n8n", "IA"],
