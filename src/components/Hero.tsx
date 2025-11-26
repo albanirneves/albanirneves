@@ -26,7 +26,7 @@ const Hero = () => {
                   Albanir Neves
                 </h1>
                 <p className="text-xl md:text-2xl text-secondary glow-green">
-                  Desenvolvedor de Software | Especialista em Dados e Automação
+                  Engenheiro de Integração de Sistemas, Dados e IA | Automação e APIs
                 </p>
               </div>
 
