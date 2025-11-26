@@ -27,7 +27,8 @@ const Projects = () => {
     {
       title: "Plataforma de Votação Online",
       description: "Sistema completo de votação online para concursos de beleza com segurança, validação de elegibilidade, registro único de votos e dashboard de apuração em tempo real. Inclui mecanismo antifraude, confirmação de voto, auditoria completa e relatórios exportáveis.",
-      tech: ["Node.js", "n8n", "MySQL / PostgreSQL", "Webhooks", "Lovable"]
+      tech: ["Node.js", "n8n", "MySQL / PostgreSQL", "Webhooks", "Lovable"],
+      link: "https://votopopular.lovable.app/"
     },
     {
       title: "Scraper de dados via proxy",
