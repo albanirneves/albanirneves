@@ -9,8 +9,9 @@ const Projects = () => {
     },
     {
       title: "Sistema para Clínica Escola",
-      description: "Plataforma completa de gestão para clínica escola de osteopatia que centraliza todas as operações acadêmicas e administrativas. Sistema robusto incluindo módulo financeiro com controle de receitas, despesas e inadimplência, agendamento inteligente de consultas com confirmação automática, gestão completa de alunos e professores com controle de frequência e avaliações. Prontuário eletrônico integrado para registro de atendimentos e evolução clínica, área do aluno com acesso a estudos de caso, materiais didáticos e histórico de atendimentos. Cadastro unificado de pacientes com anamnese detalhada, central de ajuda com FAQ e tickets de suporte, relatórios gerenciais com análise de indicadores acadêmicos e financeiros. Dashboard administrativo com visão 360° das operações, sistema de notificações por email e SMS, e controle de permissões por perfil de usuário.",
-      tech: ["React", "Node.js", "PostgreSQL", "Supabase", "REST APIs"]
+      description: "Plataforma completa de gestão para clínica escola de osteopatia centralizando operações acadêmicas e administrativas. Inclui módulo financeiro, agendamento inteligente, gestão de alunos e professores, prontuário eletrônico, área do aluno com estudos de caso, central de ajuda, relatórios gerenciais e dashboard administrativo. Sistema de notificações automáticas e controle de permissões por perfil.",
+      tech: ["React", "Node.js", "PostgreSQL", "Supabase", "REST APIs"],
+      link: "https://www.youtube.com/watch?v=osHqlvSIx1k"
     },
     {
       title: "SAAS para Atendimento em Pet Shop (Em andamento)",
