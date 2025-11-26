@@ -25,10 +25,9 @@ const Partners = () => {
   return (
     <section id="parceiros" className="py-20 px-4">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-4xl font-bold mb-4 glow-cyan terminal-prompt">
-          Parceiros
+        <h2 className="text-4xl md:text-5xl font-bold mb-12 text-center glow-cyan">
+          &lt; Parceiros /&gt;
         </h2>
-        <div className="h-1 w-20 bg-primary mb-12"></div>
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {partners.map((partner) => (
