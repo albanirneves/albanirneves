@@ -6,14 +6,14 @@ import { ExternalLink } from "lucide-react";
 const Partners = () => {
   const partners = [
     {
-      name: "Samos Sistemas",
-      logo: samosLogo,
-      url: "https://samos.com.br/"
-    },
-    {
       name: "Iconatus Inteligência Imobiliária",
       logo: iconatusLogo,
       url: "https://iconatus.com.br/"
+    },
+    {
+      name: "Samos Sistemas",
+      logo: samosLogo,
+      url: "https://samos.com.br/"
     },
     {
       name: "Leona Vity",
