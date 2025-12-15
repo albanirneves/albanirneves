@@ -22,11 +22,14 @@ const Hero = () => {
             {/* Content */}
             <div className="flex-1 text-center md:text-left space-y-6">
               <div>
-                <h1 className="text-5xl md:text-6xl font-bold mb-3 glow-cyan">
+                <h1 className="text-5xl md:text-6xl font-bold mb-2 glow-cyan">
                   Albanir Neves
                 </h1>
-                <p className="text-xl md:text-2xl text-secondary glow-green">
-                  Engenheiro de Integração de Sistemas, Dados e IA | Automação e APIs
+                <p className="text-2xl md:text-3xl text-primary font-semibold mb-1">
+                  Engenheiro de Sistemas e Integrações
+                </p>
+                <p className="text-lg md:text-xl text-secondary glow-green">
+                  Foco em Dados, IA e Automação
                 </p>
               </div>
 
