@@ -122,8 +122,7 @@ const Testimonials = () => {
       client: "Jaqueline Selzler",
       project: "Criar Relatório através de banco de dados Firebird.",
       comment: "Profissional extremamente atencioso e célere. Fez um excelente trabalho, e precisando novamente com certeza o contratarei.",
-      techs: ["JavaScript", "Node.js", "Firebird", "React.js"],
-      time: "há 5 anos"
+      techs: ["JavaScript", "Node.js", "Firebird", "React.js"]
     },
     {
       client: "Rafael Yoshida",
