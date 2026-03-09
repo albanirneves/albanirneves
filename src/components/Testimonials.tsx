@@ -56,8 +56,7 @@ const Testimonials = () => {
       client: "GhstDvlprs",
       project: "Webscrapper versao 2",
       comment: "Excelente profissional, agil e rapido e da um otimo suporte, mesmo depois de terminado o projeto.",
-      techs: ["JavaScript", "Node.js", "MongoDB"],
-      time: "há 4 anos"
+      techs: ["JavaScript", "Node.js", "MongoDB"]
     },
     {
       client: "Alexander Burt",
