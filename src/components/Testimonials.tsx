@@ -146,8 +146,7 @@ const Testimonials = () => {
       client: "Gabriel Stano",
       project: "Contador Regressivo Baseado em Cookie",
       comment: "Ótimo entendeu o projeto e o realizou rapidamente",
-      techs: ["HTML", "JavaScript", "PHP"],
-      time: "há 10 anos"
+      techs: ["HTML", "JavaScript", "PHP"]
     },
     // Sem comentários
     {
