@@ -38,8 +38,7 @@ const Testimonials = () => {
       client: "Rafael Ribeiro",
       project: "Integrador Firebird e Lojaintegrada",
       comment: "Excelente profissional, muito rápido, domina completamente o assunto proposto.",
-      techs: ["C", "C#", "DotNet", "Firebird"],
-      time: "há 4 anos"
+      techs: ["C", "C#", "DotNet", "Firebird"]
     },
     {
       client: "Pedro Balerine",
