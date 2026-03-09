@@ -32,8 +32,7 @@ const Testimonials = () => {
       client: "Marcos Custodio",
       project: "Criar Api de consumo a Banco de Dados",
       comment: "o cara é bom!",
-      techs: ["JavaScript", "MySQL", "CSS", "HTML", "Node.js"],
-      time: "há 4 anos"
+      techs: ["JavaScript", "MySQL", "CSS", "HTML", "Node.js"]
     },
     {
       client: "Rafael Ribeiro",
