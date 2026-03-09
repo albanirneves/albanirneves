@@ -14,6 +14,7 @@ const highlights = [
 ];
 
 const About = () => {
+  const yearsOfExperience = new Date().getFullYear() - 2009;
   const yearsInCurrentRole = new Date().getFullYear() - 2021;
 
   const items = highlights.map((item, i) =>
@@ -32,7 +33,7 @@ const About = () => {
         <ScrollReveal>
           <GlassCard hoverable={false} className="space-y-6">
             <p className="terminal-prompt text-lg font-medium">
-              16+ anos transformando desafios em soluções tecnológicas eficientes.
+              {yearsOfExperience}+ anos transformando desafios em soluções tecnológicas eficientes.
             </p>
 
             <ul className="space-y-3 text-muted-foreground" role="list">
