@@ -62,8 +62,7 @@ const Testimonials = () => {
       client: "Alexander Burt",
       project: "Desenvolvedor backend Webscraping 4",
       comment: "Ótima experiência, fácil o contato, muito ágil na entrega.",
-      techs: ["JavaScript", "MySQL", "PHP"],
-      time: "há 4 anos"
+      techs: ["JavaScript", "MySQL", "PHP"]
     },
     {
       client: "GhstDvlprs",
