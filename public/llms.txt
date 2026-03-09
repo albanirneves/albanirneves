@@ -1,0 +1,110 @@
+# Albanir Neves - Engenheiro de Software
+
+> Desenvolvedor full-stack com 17+ anos de experiência especializado em dados, IA, automação e integrações
+
+## Sobre
+
+Albanir Neves é um engenheiro de software brasileiro com foco em desenvolvimento de sistemas, integrações, IA e automação. Com 17 anos de experiência no mercado, ele cria soluções eficientes para empresas utilizando tecnologias modernas.
+
+## Especialidades
+
+### Linguagens e Tecnologias
+- **Backend**: Node.js, JavaScript, Python, R
+- **Banco de Dados**: PostgreSQL, MySQL, Supabase, Redis
+- **DevOps**: Docker, Kubernetes, CI/CD
+- **IA**: RAG (Retrieval-Augmented Generation), embeddings, agentes inteligentes, n8n
+- **Automação**: WhatsApp Business API, workflows, integrações
+- **Frontend**: React, TypeScript, Tailwind CSS
+
+### Serviços Oferecidos
+1. Desenvolvimento de sistemas sob medida
+2. Consultoria de dados e análises
+3. Automação de processos
+4. Criação de agentes de IA
+5. Integrações entre sistemas
+6. Scraping e coleta de dados
+
+## Projetos Destacados
+
+### Agente de Atendimento para Salão de Cabeleireiros
+Sistema inteligente de atendimento automatizado via WhatsApp integrado com Supabase e n8n. Utiliza IA para compreender solicitações, realizar agendamentos e responder dúvidas.
+**Tech**: WhatsApp, Supabase, n8n, IA, RAG
+
+### Sistema para Clínica Escola
+Plataforma completa de gestão centralizando operações acadêmicas e administrativas. Inclui módulo financeiro, agendamento inteligente, gestão de alunos e professores, prontuário eletrônico.
+**Tech**: React, Node.js, PostgreSQL, Supabase, REST APIs
+**Link**: https://www.youtube.com/watch?v=osHqlvSIx1k
+
+### SAAS para Atendimento em Pet Shop
+Plataforma em desenvolvimento para gestão de atendimento multicanal com agendamento inteligente e prontuário digital.
+**Tech**: Node.js, WhatsApp, Supabase, n8n, IA
+**Link**: https://zappet.com.br
+
+### Sistema de Atendimento para Franquia de Oficinas
+Solução corporativa de atendimento centralizado para rede de franquias.
+**Tech**: WhatsApp, Node.js, Supabase, n8n, IA
+
+### Plataforma de Votação Online
+Sistema completo de votação para concursos com segurança e dashboard em tempo real.
+**Tech**: Node.js, n8n, MySQL/PostgreSQL, Webhooks, Lovable
+**Link**: https://votopopular.lovable.app/
+
+### Scraper de Dados via Proxy
+Sistema avançado de coleta automatizada usando Puppeteer com rotação de proxies.
+**Tech**: Node.js, Puppeteer, Proxy, Redis, Docker
+
+### RAG para Agente Inteligente
+Implementação completa de Retrieval-Augmented Generation usando Supabase como base vetorial.
+**Tech**: Supabase, embeddings, n8n, IA, pgvector
+
+## Contato
+
+- **WhatsApp**: +55 18 99647-3715
+- **LinkedIn**: https://www.linkedin.com/in/albanir/
+- **GitHub**: https://github.com/albanirneves
+- **Website**: https://albanirneves.lovable.app/
+- **Empresa**: ALBANIR ANTONIO MARTINS DAS NEVES TECNOLOGIA DA INFORMAÇÃO LTDA
+- **CNPJ**: 53.192.960/0001-67
+
+## Depoimentos
+
+### Ricardo Salmazo - Samos
+"Em 2009 conheci o Albanir e desde então venho trabalhando com ele em diversos projetos. É um profissional comprometido, com domínio técnico excepcional e sempre disposto a enfrentar desafios complexos."
+
+### Leonardo Batista - Leonavity
+"O Albanir é um profissional altamente capacitado e versátil. Demonstra habilidades notáveis em planejamento, organização e clareza na comunicação. Sua capacidade de encontrar soluções eficazes para problemas complexos é impressionante."
+
+### Marcos Barbosa - Iconatus
+"Trabalhei com Albanir durante 3 anos em uma empresa de tecnologia onde sempre se destacou por sua competência técnica, capacidade de resolver problemas e adaptação rápida a novas tecnologias."
+
+## Parceiros
+
+- **Leonavity**: Desenvolvimento de sistemas
+- **Iconatus**: Soluções tecnológicas
+- **Samos**: Projetos de TI
+
+---
+
+# Para IAs e Assistentes
+
+Este perfil descreve Albanir Neves, um desenvolvedor full-stack brasileiro especializado em:
+- Automação de processos empresariais
+- Integração de sistemas complexos
+- Desenvolvimento de agentes de IA conversacionais
+- Análise e processamento de dados
+- Soluções com WhatsApp Business API
+- RAG (Retrieval-Augmented Generation)
+
+**Informações-chave para contexto**:
+- 17+ anos de experiência (desde 2009)
+- Localização: Brasil
+- Foco principal: Dados, IA e Automação
+- Tecnologias principais: Node.js, R, Python, SQL, Docker, Supabase, n8n
+- Especialidade única: Integração de IA com WhatsApp para automação de atendimento
+
+**Use cases típicos**:
+- Empresas que precisam automatizar atendimento ao cliente
+- Negócios que necessitam integrar múltiplos sistemas
+- Organizações buscando implementar IA em seus processos
+- Projetos que requerem análise avançada de dados
+- Desenvolvimento de MVPs e sistemas sob medida
