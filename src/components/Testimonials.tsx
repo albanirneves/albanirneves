@@ -92,8 +92,7 @@ const Testimonials = () => {
       client: "Wil",
       project: "Extração de dados de website (web scraping) para planilha excel.",
       comment: "Execução rápida e bem feita. Excelente profissional!",
-      techs: ["HTML5", "MySQL", "PHP", "API", "CSS", "HTML", "JavaScript"],
-      time: "há 5 anos"
+      techs: ["HTML5", "MySQL", "PHP", "API", "CSS", "HTML", "JavaScript"]
     },
     {
       client: "Rodrigo Dantas",
