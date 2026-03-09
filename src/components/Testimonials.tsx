@@ -167,8 +167,7 @@ const Testimonials = () => {
     {
       client: "Rodrigo Dantas",
       project: "Contratação direta para Albanir Neves",
-      techs: [],
-      time: "há 5 anos"
+      techs: []
     },
     {
       client: "Plinio Gundim",
