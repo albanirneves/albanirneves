@@ -157,8 +157,7 @@ const Testimonials = () => {
     {
       client: "Andre Beethoven Barros Araujo",
       project: "Scraper Vivareal",
-      techs: ["HTML", "JavaScript", "MySQL", "PHP", "HTML5"],
-      time: "há 4 anos"
+      techs: ["HTML", "JavaScript", "MySQL", "PHP", "HTML5"]
     },
     {
       client: "luiz felipe braga da silva",
