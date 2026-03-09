@@ -134,8 +134,7 @@ const Testimonials = () => {
       client: "Lucas",
       project: "Plugin e \"bot\" para web",
       comment: "O Albanir é um excelente profissional. Competente, pontual e com uma boa comunicação.",
-      techs: ["HTML", "JavaScript"],
-      time: "há 6 anos"
+      techs: ["HTML", "JavaScript"]
     },
     {
       client: "Lucas",
