@@ -44,8 +44,7 @@ const Testimonials = () => {
       client: "Pedro Balerine",
       project: "Web Scraper paramétrico",
       comment: "Muito rápido e prestativo! Recomendo!",
-      techs: ["JavaScript", "HTML", "Node.js"],
-      time: "há 4 anos"
+      techs: ["JavaScript", "HTML", "Node.js"]
     },
     {
       client: "Alan Silva",
