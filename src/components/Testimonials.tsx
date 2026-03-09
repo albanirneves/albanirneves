@@ -116,8 +116,7 @@ const Testimonials = () => {
       client: "Danilo",
       project: "Landing Pages",
       comment: "Albanir é muito prestativo e o melhor de tudo, se antecipou ao projeto e surpreendeu as expectativas. Fez uma landing page com muito profissionalismo.",
-      techs: ["CSS", "HTML", "Responsive Web Design", "JavaScript"],
-      time: "há 5 anos"
+      techs: ["CSS", "HTML", "Responsive Web Design", "JavaScript"]
     },
     {
       client: "Jaqueline Selzler",
