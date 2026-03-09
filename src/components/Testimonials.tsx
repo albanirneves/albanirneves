@@ -14,8 +14,7 @@ const Testimonials = () => {
       client: "Toni Varela",
       project: "Atualização de informações nos anúncios dos produtos do estoque",
       comment: "Excelente profissional, atento e cuidadoso, rapidamente entendeu o que era necessário fazer e executou com perfeição. Recomendo o trabalho dele.",
-      techs: ["Microsoft Excel", "Atenção ao cliente"],
-      time: "Há um ano"
+      techs: ["Microsoft Excel", "Atenção ao cliente"]
     },
     {
       client: "GhstDvlprs",
