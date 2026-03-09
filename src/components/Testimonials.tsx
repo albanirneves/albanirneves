@@ -227,6 +227,15 @@ const Testimonials = () => {
                 </div>
               )}
 
+              <div className="flex gap-1 mb-3">
+                {[...Array(5)].map((_, starIdx) => (
+                  <Star
+                    key={starIdx}
+                    className="w-4 h-4 fill-secondary text-secondary"
+                  />
+                ))}
+              </div>
+
               <div className="mt-auto">
                 <p className="text-muted-foreground text-xs mb-1">
                   <span className="text-secondary">Cliente:</span> {testimonial.client}
@@ -253,7 +262,17 @@ const Testimonials = () => {
                   </div>
                 )}
 
-                <p className="text-muted-foreground text-xs">{testimonial.time}</p>
+                <div className="flex items-center justify-between">
+                  <p className="text-muted-foreground text-xs">{testimonial.time}</p>
+                  <a
+                    href="https://www.workana.com/freelancer/34f32c05be5acc0058eca7e0fc82737c"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-1 text-secondary hover:text-primary transition-colors text-xs font-semibold"
+                  >
+                    Ver no Workana <ExternalLink className="w-3 h-3" />
+                  </a>
+                </div>
               </div>
             </div>
           ))}
