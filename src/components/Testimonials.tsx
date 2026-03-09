@@ -26,8 +26,7 @@ const Testimonials = () => {
       client: "GhstDvlprs",
       project: "Robo que consiga logar em uma webpage",
       comment: "Albanir ja é parceiro nossos dos projetos, muito bom!",
-      techs: ["JavaScript", "Node.js"],
-      time: "há 4 anos"
+      techs: ["JavaScript", "Node.js"]
     },
     {
       client: "Marcos Custodio",
