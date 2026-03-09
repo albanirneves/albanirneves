@@ -110,8 +110,7 @@ const Testimonials = () => {
       client: "José Antônio O Junior",
       project: "Criação de Cartão virtual em Html5",
       comment: "Excelente trabalho, eficiente, boa comunicação, entregou no prazo solicitado atendendo todos os requisitos conforme foi proposto.",
-      techs: ["CSS", "HTML", "HTML5", "JavaScript", "Responsive Web Design"],
-      time: "há 5 anos"
+      techs: ["CSS", "HTML", "HTML5", "JavaScript", "Responsive Web Design"]
     },
     {
       client: "Danilo",
