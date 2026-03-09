@@ -1,18 +1,21 @@
 import { Github, Linkedin } from "lucide-react";
 
+const WHATSAPP_URL =
+  "https://wa.me/5518996473715?text=Olá!%20Gostaria%20de%20conversar%20sobre%20seus%20serviços.";
+
 const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="py-8 px-4 border-t border-border bg-muted/30">
+    <footer className="py-12 px-4 border-t border-border/50">
       <div className="container max-w-6xl mx-auto">
-        {/* CTA Button */}
-        <div className="text-center mb-8">
+        {/* CTA */}
+        <div className="text-center mb-10">
           <a
-            href="https://wa.me/5518996473715?text=Olá!%20Gostaria%20de%20conversar%20sobre%20seus%20serviços."
+            href={WHATSAPP_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block px-8 py-4 bg-secondary text-secondary-foreground rounded-lg hover:shadow-xl hover:shadow-secondary/50 transition-all duration-300 font-bold text-lg"
+            className="inline-block px-8 py-4 bg-secondary text-secondary-foreground rounded-lg hover:shadow-[0_0_32px_hsl(var(--neon-green)/0.3)] transition-all duration-300 font-bold text-lg"
           >
             Entre em contato comigo agora mesmo!
           </a>
@@ -20,13 +23,13 @@ const Footer = () => {
 
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
           <div className="text-center md:text-left">
-            <p className="text-muted-foreground">
+            <p className="text-muted-foreground text-sm">
               © {currentYear} Albanir Neves
             </p>
-            <p className="text-xs text-muted-foreground/70 mt-1">
+            <p className="text-xs text-muted-foreground/60 mt-1">
               ALBANIR ANTONIO MARTINS DAS NEVES TECNOLOGIA DA INFORMAÇÃO LTDA
             </p>
-            <p className="text-xs text-muted-foreground/70">
+            <p className="text-xs text-muted-foreground/60">
               CNPJ: 53.192.960/0001-67
             </p>
           </div>
