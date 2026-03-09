@@ -7,7 +7,7 @@ const WHATSAPP_URL =
 
 const ctaButtons = [
   { href: "#projetos", label: "Ver Projetos", variant: "primary" as const },
-  { href: "#servicos", label: "Ver Serviços", variant: "outline" as const },
+  { href: "#depoimentos", label: "Depoimentos", variant: "outline" as const },
   { href: WHATSAPP_URL, label: "Entrar em Contato", variant: "secondary" as const, external: true },
 ];
 
