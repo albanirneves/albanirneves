@@ -1,4 +1,4 @@
-import { Quote } from "lucide-react";
+import { Quote, Star, ExternalLink } from "lucide-react";
 
 interface Testimonial {
   client: string;
