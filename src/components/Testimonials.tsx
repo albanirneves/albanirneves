@@ -152,8 +152,7 @@ const Testimonials = () => {
     {
       client: "ALEXANDRE CAIRO",
       project: "Estou a procura de um programador que consiga criar um processo repetitivo",
-      techs: ["HTML5", "MySQL", "PHP"],
-      time: "há 4 anos"
+      techs: ["HTML5", "MySQL", "PHP"]
     },
     {
       client: "Andre Beethoven Barros Araujo",
