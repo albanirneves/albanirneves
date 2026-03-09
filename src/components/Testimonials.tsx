@@ -104,8 +104,7 @@ const Testimonials = () => {
       client: "Alan Silva",
       project: "Javascript Botão leia mais",
       comment: "Atencioso, e entrega o projeto muito rápido!",
-      techs: ["JavaScript", "MySQL", "PHP", "API", "C#", "CSS", "HTML", "HTML5", "WordPress"],
-      time: "há 5 anos"
+      techs: ["JavaScript", "MySQL", "PHP", "API", "C#", "CSS", "HTML", "HTML5", "WordPress"]
     },
     {
       client: "José Antônio O Junior",
