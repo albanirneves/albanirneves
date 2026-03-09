@@ -2,49 +2,41 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
-*/
-
 @layer base {
   :root {
     --background: 230 35% 7%;
-    --foreground: 180 100% 90%;
+    --foreground: 210 20% 88%;
 
     --card: 230 30% 10%;
-    --card-foreground: 180 100% 90%;
+    --card-foreground: 210 20% 88%;
 
     --popover: 230 30% 10%;
-    --popover-foreground: 180 100% 90%;
+    --popover-foreground: 210 20% 88%;
 
-    --primary: 180 100% 50%;
+    --primary: 180 70% 50%;
     --primary-foreground: 230 35% 7%;
 
-    --secondary: 142 100% 50%;
+    --secondary: 142 60% 45%;
     --secondary-foreground: 230 35% 7%;
 
-    --muted: 230 25% 15%;
-    --muted-foreground: 180 20% 65%;
+    --muted: 230 25% 13%;
+    --muted-foreground: 210 15% 55%;
 
-    --accent: 262 83% 58%;
+    --accent: 262 60% 55%;
     --accent-foreground: 0 0% 100%;
 
-    --destructive: 0 84.2% 60.2%;
+    --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 98%;
 
-    --border: 230 25% 20%;
-    --input: 230 25% 20%;
-    --ring: 180 100% 50%;
+    --border: 230 20% 16%;
+    --input: 230 20% 16%;
+    --ring: 180 70% 50%;
 
-    --radius: 0.5rem;
+    --radius: 0.75rem;
 
-    --neon-cyan: 180 100% 50%;
-    --neon-green: 142 100% 50%;
-    --neon-purple: 262 83% 58%;
-    
-    --terminal-bg: 230 35% 7%;
-    --terminal-border: 230 25% 20%;
-    --code-bg: 230 30% 10%;
+    --neon-cyan: 180 70% 50%;
+    --neon-green: 142 60% 45%;
+    --neon-purple: 262 60% 55%;
   }
 }
 
@@ -54,28 +46,69 @@ All colors MUST be HSL.
   }
 
   body {
-    @apply bg-background text-foreground font-mono;
+    @apply bg-background text-foreground font-sans antialiased;
   }
 
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-sans tracking-tight;
+  }
+
+  /* Subtle glow effects — refined for readability */
   .glow-cyan {
-    text-shadow: 0 0 10px hsl(var(--neon-cyan)), 0 0 20px hsl(var(--neon-cyan) / 0.5);
+    text-shadow: 0 0 20px hsl(var(--neon-cyan) / 0.25);
   }
 
   .glow-green {
-    text-shadow: 0 0 10px hsl(var(--neon-green)), 0 0 20px hsl(var(--neon-green) / 0.5);
+    text-shadow: 0 0 20px hsl(var(--neon-green) / 0.25);
   }
 
   .glow-purple {
-    text-shadow: 0 0 10px hsl(var(--neon-purple)), 0 0 20px hsl(var(--neon-purple) / 0.5);
+    text-shadow: 0 0 20px hsl(var(--neon-purple) / 0.25);
+  }
+}
+
+@layer components {
+  /* Glass card effect */
+  .glass-card {
+    @apply relative rounded-xl border border-border/60 p-6;
+    background: hsl(var(--card) / 0.6);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
   }
 
-  .terminal-window {
-    @apply bg-card border border-border rounded-lg p-6 shadow-2xl;
-    box-shadow: 0 0 30px hsl(var(--neon-cyan) / 0.1);
+  .glass-card-hover {
+    @apply glass-card transition-all duration-300;
   }
 
+  .glass-card-hover:hover {
+    @apply border-primary/40;
+    transform: translateY(-4px);
+    box-shadow: 0 8px 32px hsl(var(--neon-cyan) / 0.08);
+  }
+
+  /* Terminal prompt */
   .terminal-prompt::before {
     content: ">_ ";
-    @apply text-primary;
+    @apply text-primary font-mono;
+  }
+
+  /* Tech badge */
+  .tech-badge {
+    @apply inline-flex items-center px-3 py-1 rounded-md text-xs font-mono font-medium
+           border border-border/80 bg-muted/50 text-muted-foreground
+           transition-colors duration-200;
+  }
+
+  .tech-badge:hover {
+    @apply border-primary/50 text-primary;
+  }
+
+  /* Section heading */
+  .section-heading {
+    @apply text-3xl md:text-4xl lg:text-5xl font-bold mb-16 text-center;
+  }
+
+  .section-heading .bracket {
+    @apply font-mono font-normal;
   }
 }

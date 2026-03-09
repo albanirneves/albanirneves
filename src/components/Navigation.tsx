@@ -1,53 +1,52 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 
+const NAV_LINKS = [
+  { href: "#sobre", label: "Sobre" },
+  { href: "#habilidades", label: "Habilidades" },
+  { href: "#projetos", label: "Projetos" },
+  { href: "#servicos", label: "Serviços" },
+  { href: "#depoimentos", label: "Depoimentos" },
+];
+
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
 
   useEffect(() => {
-    const handleScroll = () => {
-      setIsScrolled(window.scrollY > 50);
-    };
-
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
+    const onScroll = () => setIsScrolled(window.scrollY > 50);
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
   }, []);
-
-  const navLinks = [
-    { href: "#sobre", label: "Sobre" },
-    { href: "#habilidades", label: "Habilidades" },
-    { href: "#projetos", label: "Projetos" },
-    { href: "#servicos", label: "Serviços" },
-    { href: "#depoimentos", label: "Depoimentos" }
-  ];
 
   return (
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled ? "bg-background/95 backdrop-blur-md shadow-lg" : "bg-transparent"
+        isScrolled
+          ? "bg-background/80 backdrop-blur-xl border-b border-border/50 shadow-lg shadow-background/20"
+          : "bg-transparent"
       }`}
     >
       <div className="container max-w-6xl mx-auto px-4">
         <div className="flex items-center justify-between h-16">
-          <a href="#" className="text-xl font-bold text-primary glow-cyan">
+          <a href="#" className="text-xl font-bold font-mono text-primary glow-cyan">
             &lt;AN/&gt;
           </a>
 
-          {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center gap-6">
-            {navLinks.map((link) => (
+          {/* Desktop */}
+          <div className="hidden md:flex items-center gap-8">
+            {NAV_LINKS.map((link) => (
               <a
                 key={link.href}
                 href={link.href}
-                className="text-foreground hover:text-primary transition-colors duration-200"
+                className="text-sm text-muted-foreground hover:text-primary transition-colors duration-200"
               >
                 {link.label}
               </a>
             ))}
           </div>
 
-          {/* Mobile Menu Button */}
+          {/* Mobile toggle */}
           <button
             onClick={() => setIsOpen(!isOpen)}
             className="md:hidden text-foreground hover:text-primary transition-colors"
@@ -57,16 +56,16 @@ const Navigation = () => {
           </button>
         </div>
 
-        {/* Mobile Navigation */}
+        {/* Mobile menu */}
         {isOpen && (
-          <div className="md:hidden pb-4 bg-background/95 backdrop-blur-md -mx-4 px-4 border-t border-border mt-4">
-            <div className="flex flex-col gap-3 pt-4">
-              {navLinks.map((link) => (
+          <div className="md:hidden pb-4 border-t border-border/50 mt-2">
+            <div className="flex flex-col gap-1 pt-4">
+              {NAV_LINKS.map((link) => (
                 <a
                   key={link.href}
                   href={link.href}
                   onClick={() => setIsOpen(false)}
-                  className="text-foreground hover:text-primary transition-colors duration-200 py-2 px-4 rounded hover:bg-muted"
+                  className="text-sm text-muted-foreground hover:text-primary transition-colors py-2.5 px-4 rounded-lg hover:bg-muted/50"
                 >
                   {link.label}
                 </a>
