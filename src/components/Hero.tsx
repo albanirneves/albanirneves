@@ -62,7 +62,7 @@ const Hero = () => {
                 Engenheiro de Software
               </p>
               <p className="text-base md:text-lg text-secondary font-mono">
-                Foco em Dados, IA e Automação
+                Foco em Desenvolvimento de Sistemas, Integrações, IA e Automação
               </p>
             </div>
 
