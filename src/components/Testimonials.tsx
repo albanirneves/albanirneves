@@ -162,8 +162,7 @@ const Testimonials = () => {
     {
       client: "luiz felipe braga da silva",
       project: "Script instagram",
-      techs: ["HTML5", "MySQL", "PHP"],
-      time: "há 5 anos"
+      techs: ["HTML5", "MySQL", "PHP"]
     },
     {
       client: "Rodrigo Dantas",
