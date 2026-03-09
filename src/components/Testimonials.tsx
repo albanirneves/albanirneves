@@ -68,8 +68,7 @@ const Testimonials = () => {
       client: "GhstDvlprs",
       project: "Desenvolvimento de endpoint api Nodejs e Puppeteer Js para web scraping",
       comment: "Excelente profissional! Atendeu as minhas requisições de forma super rapida! Recomendo!",
-      techs: ["JavaScript", "API", "Node.js", "MongoDB"],
-      time: "há 4 anos"
+      techs: ["JavaScript", "API", "Node.js", "MongoDB"]
     },
     {
       client: "S. Filipe",
