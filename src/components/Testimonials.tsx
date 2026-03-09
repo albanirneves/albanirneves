@@ -5,7 +5,6 @@ interface Testimonial {
   project: string;
   comment?: string;
   techs: string[];
-  time: string;
 }
 
 const Testimonials = () => {
