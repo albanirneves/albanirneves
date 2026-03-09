@@ -74,8 +74,7 @@ const Testimonials = () => {
       client: "S. Filipe",
       project: "Conexao Firebird 3.0 com Node.Js",
       comment: "Ótimo profissional e prestativo",
-      techs: ["Node.js", "Firebird"],
-      time: "há 4 anos"
+      techs: ["Node.js", "Firebird"]
     },
     {
       client: "Rodrigo Dantas",
