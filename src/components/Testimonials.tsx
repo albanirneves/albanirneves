@@ -128,8 +128,7 @@ const Testimonials = () => {
       client: "Rafael Yoshida",
       project: "Ajuda com um código do Javascript",
       comment: "Excelente, Rápido Efetivo e Eficaz, com tudo muito bem explicado, não poderia ser melhor",
-      techs: ["JavaScript"],
-      time: "há 6 anos"
+      techs: ["JavaScript"]
     },
     {
       client: "Lucas",
