@@ -20,8 +20,7 @@ const Testimonials = () => {
       client: "GhstDvlprs",
       project: "Criar Https para Api em Nodejs existente",
       comment: "Excelente profissional! Recomendo!",
-      techs: ["JavaScript", "API", "Node.js", ".Net Core"],
-      time: "há 4 anos"
+      techs: ["JavaScript", "API", "Node.js", ".Net Core"]
     },
     {
       client: "GhstDvlprs",
