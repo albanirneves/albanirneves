@@ -80,8 +80,7 @@ const Testimonials = () => {
       client: "Rodrigo Dantas",
       project: "Import JSON para MySQL",
       comment: "Desenvolvimento rápido e de qualidade!",
-      techs: [],
-      time: "há 4 anos"
+      techs: []
     },
     {
       client: "Andre Godinho",
