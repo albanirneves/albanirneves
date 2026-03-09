@@ -50,8 +50,7 @@ const Testimonials = () => {
       client: "Alan Silva",
       project: "Contratação direta para Albanir Neves",
       comment: "excelente profissional",
-      techs: [],
-      time: "há 4 anos"
+      techs: []
     },
     {
       client: "GhstDvlprs",
