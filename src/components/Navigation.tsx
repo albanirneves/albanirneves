@@ -18,7 +18,8 @@ const Navigation = () => {
     { href: "#sobre", label: "Sobre" },
     { href: "#habilidades", label: "Habilidades" },
     { href: "#projetos", label: "Projetos" },
-    { href: "#servicos", label: "Serviços" }
+    { href: "#servicos", label: "Serviços" },
+    { href: "#depoimentos", label: "Depoimentos" }
   ];
 
   return (
