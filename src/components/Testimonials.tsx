@@ -172,8 +172,7 @@ const Testimonials = () => {
     {
       client: "Plinio Gundim",
       project: "Web scraping para coleta de informações em e-commerce",
-      techs: ["JavaScript", "MySQL", "PHP"],
-      time: "há 5 anos"
+      techs: ["JavaScript", "MySQL", "PHP"]
     }
   ];
 
