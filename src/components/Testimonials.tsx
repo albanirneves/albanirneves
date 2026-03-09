@@ -140,8 +140,7 @@ const Testimonials = () => {
       client: "Lucas",
       project: "Bot para pegar Urls do Youtube",
       comment: "Excelente profissional! Tudo perfeito.",
-      techs: ["JavaScript", "MySQL", "PHP", "Python"],
-      time: "há 6 anos"
+      techs: ["JavaScript", "MySQL", "PHP", "Python"]
     },
     {
       client: "Gabriel Stano",
