@@ -98,8 +98,7 @@ const Testimonials = () => {
       client: "Rodrigo Dantas",
       project: "Crawler 11º cartório",
       comment: "Profissional muito fácil de trabalhar, muito objetivo e rápido!",
-      techs: ["JavaScript", "MySQL", "PHP"],
-      time: "há 5 anos"
+      techs: ["JavaScript", "MySQL", "PHP"]
     },
     {
       client: "Alan Silva",
