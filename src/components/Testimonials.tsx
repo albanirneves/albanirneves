@@ -86,8 +86,7 @@ const Testimonials = () => {
       client: "Andre Godinho",
       project: "Criação de arquivo Excel feito a partir do Javascript",
       comment: "Programador muito hábil e eficiente. Demonstrou conhecimento no projeto que propus e fácil comunicação. Com certeza farei mais trabalhos com ele",
-      techs: ["JavaScript", "API"],
-      time: "há 5 anos"
+      techs: ["JavaScript", "API"]
     },
     {
       client: "Wil",
